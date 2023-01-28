@@ -1,0 +1,48 @@
+body {
+  font-family: "Comfortaa", cursive;
+  font-family: "Quicksand", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.codeQR {
+  width: 375px;
+  height: 580px;
+  margin: 120px auto;
+  border-radius: 20px;
+  background-color: #fffff1;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.codeQR img {
+  width: 330px;
+  margin: 22px;
+  border-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media (max-width:720px) {
+  .codeQR{
+    width: 350px;
+  }
+  .codeQR img{
+    width: 320px;
+    margin: 1em;
+  }
+}
